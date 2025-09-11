@@ -54,7 +54,7 @@ last_spawn_time = {direction: 0 for direction in directions}
 YOLO_MODEL_PATH = r"C:\Python\traffic_images\yolov8n.pt"  # Using the default YOLOv8 nano model
 
 # Directory for traffic images
-TRAFFIC_IMAGE_DIR = "traffic_images"
+TRAFFIC_IMAGE_DIR = r"C:\Python\traffic_images"
     
 # Initialize YOLO model
 try:
